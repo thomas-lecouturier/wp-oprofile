@@ -1,0 +1,24 @@
+.header {
+    background-color: #222;
+    background-image: 
+        radial-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.5)),
+        url('../images/header_background.jpg');
+    background-position: top;
+    background-size: cover;
+    color: $header-text-color;
+    height: 50vh;
+
+    h1 {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    &__top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__links a {
+        color: $header-text-color;
+    }
+}
